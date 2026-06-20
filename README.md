@@ -31,17 +31,15 @@ L’objectif est d'avoir un modèle performant ne nécessitant pas beaucoup de p
 
 ## Dataset
 
-```
+
 vonewman/alpaca-sharegpt-wolof — dataset conversationnel en langue Wolof (Hugging Face)
-```
 
 ---
 
 ## Techniques de fine-tuning
 
-```
+
 QLoRA = Quantification 4-bit (BitsAndBytes) + LoRA adapters sur les couches q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj
-```
 
 ---
 
