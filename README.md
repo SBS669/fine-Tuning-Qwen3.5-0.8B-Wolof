@@ -1,8 +1,8 @@
-# fine-Tuning-Qwen3.5-0.8B-Wolof
+# Fine-Tuning-Qwen3.5-0.8B-Wolof
 
 Ce projet utilise le modèle Qwen3.5-0.8B qui est un modèle ultra-léger et puissant pour le fine-tuning .
 
-L’objectif est d'avoir un modèle puissant et qui ne nécessite pas beaucoup de puissance de calcul pour l'entrainement et la production.
+L’objectif est d'avoir un modèle performant ne nécessitant pas beaucoup de puissance de calcul pour l'entraînement et la production.
 
 ---
 
@@ -11,7 +11,7 @@ L’objectif est d'avoir un modèle puissant et qui ne nécessite pas beaucoup d
 
 
 * Prétraiter un dataset
-* Entrainer le modèle en version quantifié 
+* Entraîner le modèle en version quantifiée (1000 lignes de données)
 
 ---
 
@@ -48,5 +48,11 @@ QLoRA = Quantification 4-bit (BitsAndBytes) + LoRA adapters sur les couches q_pr
 ## Environnement d'exécution
 
 Google Colab 
-GPU T4
-   
+GPU T4 
+
+---
+
+## Portabilité & Perspective
+
+* Le modèle léger fine-tuné en Wolof peut s'intégrer facilement dans des petits dispositifs (smartphones, Raspberry Pi, edge devices) pour traiter le Wolof localement, sans nécessiter de connexion cloud.
+* Entraîner le modèle avec plus de puissance de calcul pour obtenir un modèle prêt en production
