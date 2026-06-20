@@ -53,4 +53,4 @@ GPU T4
 ## Portabilité & Perspective
 
 * Le modèle léger fine-tuné en Wolof peut s'intégrer facilement dans des petits dispositifs (smartphones, Raspberry Pi, edge devices) pour traiter le Wolof localement, sans nécessiter de connexion cloud.
-* Entraîner le modèle avec plus de puissance de calcul pour obtenir un modèle prêt en production
+* Entraîner le modèle avec plus de puissance de calcul pour obtenir un modèle prêt pour la production
